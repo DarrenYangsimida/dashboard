@@ -1,17 +1,17 @@
 <!--
  * Copyright 2022 The kubegems.io Authors
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *       http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
- * limitations under the License. 
+ * limitations under the License.
 -->
 
 <template>
@@ -128,7 +128,8 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item @click="toBook">
+
+        <!-- <v-list-item @click="toBook">
           <v-list-item-avatar height="25" min-width="25" width="25">
             <v-icon color="primary">mdi-book-open-variant</v-icon>
           </v-list-item-avatar>
@@ -147,7 +148,7 @@
               {{ i18n.t('header.user.about') }}
             </v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
       </v-list>
       <v-divider />
       <v-card-actions>
