@@ -182,7 +182,7 @@
         },
         repos: [],
         chartsNum: 0,
-        selectRepo: 'HPEKubes',
+        selectRepo: 'kubegems',
         repoMenu: false,
         offsetTop: 0,
       };
@@ -197,13 +197,13 @@
       },
     },
     mounted() {
-      this.selectRepo = this.$route.query.reponame ? this.$route.query.reponame : 'HPEKubes';
+      this.selectRepo = this.$route.query.reponame ? this.$route.query.reponame : 'kubegems';
       this.appStoreList();
       this.repositoryList();
     },
     methods: {
       async appStoreList() {
-        if (this.selectRepo === 'HPEKubes') {
+        if (this.selectRepo === 'kubegems') {
           this.params.reponame = '';
         } else {
           this.params.reponame = this.selectRepo;
@@ -228,7 +228,7 @@
         this.repos = data.map((repo) => {
           return repo.ChartRepoName;
         });
-        this.repos.unshift('HPEKubes');
+        this.repos.unshift('kubegems');
       },
       generatTypes() {
         this.types = [];
