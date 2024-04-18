@@ -20,8 +20,8 @@ const getPlatfom = (): string => {
       ? title
           ?.substr(title?.indexOf('-') + 1)
           ?.trim()
-          ?.toLocaleLowerCase() || 'kubegems'
-      : title?.trim()?.toLocaleLowerCase() || 'kubegems';
+          ?.toLocaleLowerCase() || 'HPEKubes'
+      : title?.trim()?.toLocaleLowerCase() || 'HPEKubes';
   return platform;
 };
 

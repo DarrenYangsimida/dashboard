@@ -13,7 +13,8 @@
     "prepare": "husky install",
     "cz": "git add . && git cz",
     "amend": "git add . && git commit --amend",
-    "clean": "rm -rf node_modules **/*/node_modules"
+    "clean": "rm -rf node_modules **/*/node_modules",
+    "fix-memory-limit": "cross-env LIMIT=8096 increase-memory-limit"
   },
   "husky": {
     "hooks": {
