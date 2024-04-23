@@ -4,7 +4,7 @@ export default {
     MANUAL: 'https://www.kubegems.io/docs/concepts/what-is-kubegems',
     LOGO_PRIMARY: '/opengems.svg',
     LOGO_WHITE: '/opengems-white.svg',
-    SLOGAN_CN: '容器管理平台',
+    SLOGAN_CN: '云原生容器管理平台',
     SLOGAN_EN: 'Cloud-native container management platform',
   },
   theme: {

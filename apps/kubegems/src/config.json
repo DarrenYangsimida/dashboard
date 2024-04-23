@@ -4,7 +4,7 @@
     "MANUAL": "https://www.kubegems.io/docs/concepts/what-is-kubegems",
     "LOGO_PRIMARY": "/logo-blue.svg",
     "LOGO_WHITE": "/logo-white.svg",
-    "SLOGAN_CN": "容器管理平台",
+    "SLOGAN_CN": "云原生容器管理平台",
     "SLOGAN_EN": "Cloud-native container management platform"
   },
   "theme": {
