@@ -1,11 +1,11 @@
 export default {
   layout: {
-    PLATFORM: 'OpenGems',
+    PLATFORM: 'HPEKubes',
     MANUAL: 'https://www.kubegems.io/docs/concepts/what-is-kubegems',
     LOGO_PRIMARY: '/opengems.svg',
     LOGO_WHITE: '/opengems-white.svg',
-    SLOGAN_CN: '更便捷的云原生管理平台',
-    SLOGAN_EN: 'Simplify your cloud native journey',
+    SLOGAN_CN: '容器管理平台',
+    SLOGAN_EN: 'Cloud-native container management platform',
   },
   theme: {
     THEME_COLOR: {
@@ -25,7 +25,8 @@ export default {
     FONT_FAMILY: 'Poppins, sans-serif, zcool qingke huangyou, microsoft yahei, pingfang sc !default',
   },
   product: {
-    KUBEGEMS: 'KubeGems',
+    //KUBEGEMS: 'KubeGems',
+    KUBEGEMS: 'HPEKubes',
     OBSERVEGEMS: 'ObserGems',
     EDGEGEMS: 'EdgeGems',
     AIGEMS: 'AIGems',
