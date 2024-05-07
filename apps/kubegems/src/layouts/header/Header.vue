@@ -51,7 +51,7 @@
 
     <v-spacer />
 
-    <template v-if="module.title === 'KubeGems' || module.title === 'KubeGems Admin'">
+    <template v-if="module.title === 'KubeGems' || module.title === 'KubeGems Admin' || module.title === 'HPEKubes'">
       <v-btn v-if="!store.state.GlobalPlugins['kubegems-models']" color="primary" dark depressed @click="toAppStore">
         <v-icon class="header__icon-line-height" left> mdi-shopping </v-icon>
         <span
